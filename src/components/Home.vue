@@ -7,7 +7,9 @@
       <h3 class="text-lg lg:text-2xl text-accent-1">Hi there, my name is</h3>
       <h1 class="text-4xl lg:text-6xl text-gray-100">Rama.</h1>
       <h1 class="text-4xl lg:text-6xl text-gray-400">I developed website</h1>
-      <p class="text-gray-600 lg:w-1/2">I love creating things that live on internet, especially creating website</p>
+      <p class="text-gray-600 lg:w-1/2">
+        I love creating things that live on internet
+      </p>
     </section>
 
     <section
@@ -29,21 +31,18 @@
               />
             </div>
             <p>
-              My name is M Fitrah Ramadhan, i am a fresh graduate with a degree in Computer Engineering. I pursued that field of education because I’ve always been interested in computer stuff. More importantly, I have been very much
-              interested in web development.
+              My name is M Fitrah Ramadhan, i am a fresh graduate with a degree
+              in Computer Engineering. I pursued that field of education because
+              I’ve always been interested in computer stuff. More importantly, I
+              have been very much interested in web development.
             </p>
-            <p>Now, I am all set to start my career, and hoping to get selected into your esteemed company where I can explore my abilities, and prove myself.</p>
-            <p class="mt-4">Here are a few technologies i've been learning and working with recently :</p>
+            <p>
+              Now, I am all set to start my career, and hoping to get selected
+              into your esteemed company where I can explore my abilities, and
+              prove myself.
+            </p>
             <div class="clear-left"></div>
           </div>
-          <ul class="grid grid-cols-2">
-            <li>Javascript</li>
-            <li>Vue.js 2</li>
-            <li>Nuxt.js</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-          </ul>
         </div>
       </div>
     </section>
@@ -52,12 +51,14 @@
       id="project"
       class="flex flex-col transition-opacity duration-1000 min-h-screen px-8 sm:px-16 md:px-20 lg:px-24 bg-primary-500"
     >
-      <h1 class="text-2xl my-4 sm:text-3xl md:text-6xl text-center md:my-8">Some Things I've Built</h1>
+      <h1 class="text-2xl my-4 sm:text-3xl md:text-6xl text-center md:my-8">
+        Some Things I've Built
+      </h1>
       <ProjectWrapper
         left
-        to="https://fierce-temple-02414.herokuapp.com/"
+        to="https://mfitrahrmd.github.io/SpoVuetify/"
         description="Spotify web app where you can manage your spotify library like add or remove playlist, save tracks, albums and more."
-        :techstack="['VueJS', 'Vuetify', 'Spotify API', 'Heroku']"
+        :techstack="['VueJS', 'Vuetify', 'Spotify API']"
       >
         <template #image>
           <img
@@ -68,7 +69,7 @@
       </ProjectWrapper>
       <ProjectWrapper
         right
-        to="https://frozen-fjord-63502.herokuapp.com/"
+        to="https://mfitrahrmd.github.io/nuxt-blog/"
         description="Simple Blog website with butter cms"
         :techstack="['NuxtJS', 'Butter CMS', 'Tailwind CSS']"
       >
@@ -93,12 +94,7 @@
           class="rounded-sm group bg-primary-400 cursor-pointer hover:shadow-2xl transition-all duration-200 relative overflow-hidden"
           style="max-height: 300px"
         >
-          <img
-            class="w-full h-full object-cover"
-            :src="col.image"
-            alt=""
-          />
-
+          <img class="w-full h-full object-cover" :src="col.image" alt="" />
         </div>
       </div>
     </section>
@@ -107,12 +103,17 @@
       id="contact"
       class="flex flex-col justify-center min-h-screen text-center bg-primary-500"
     >
-      <h1 class="text-2xl my-4 sm:text-3xl md:text-6xl text-center md:my-8">Get in Touch</h1>
-      <p class="text-lg">I'm currently looking for opportunities to work together</p>
+      <h1 class="text-2xl my-4 sm:text-3xl md:text-6xl text-center md:my-8">
+        Get in Touch
+      </h1>
+      <p class="text-lg">
+        I'm currently looking for opportunities to work together
+      </p>
       <a
         href="mailto:tgcfitrah26@gmail.com"
         class="self-center px-4 py-2 my-3 rounded-md bg-accent-1 text-black hover:bg-gray-500 transition-colors duration-200"
-      >Mail Me</a>
+        >Mail Me</a
+      >
     </section>
   </div>
 </template>
