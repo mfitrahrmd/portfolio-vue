@@ -31,9 +31,11 @@
     <div
       class="inline-block md:hidden px-4 py-1 rounded-sm hover:bg-accent-1 hover:text-black transition-colors duration-200 cursor-pointer"
       @click="$emit('menuOn')"
-    >Menu</div>
+    >
+      Menu
+    </div>
     <a
-      href="https://drive.google.com/u/0/uc?id=1OacPXGJGHkr9rkFgUrt8U2zHujRA26nJ&export=download"
+      href="https://drive.google.com/file/d/15ngi36ezIUfu654UwsTDpS3N7etZ76Bv/view?usp=sharing"
       class="ml-5"
     >
       <BaseButton class="border">Resume</BaseButton>
